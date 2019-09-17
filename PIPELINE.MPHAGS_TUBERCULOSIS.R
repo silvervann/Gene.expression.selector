@@ -188,3 +188,5 @@ qNormbpl = ggplot(qNorm_melt, aes(x=Var2, y=value,fill=Var2)) +
 png(file= paste("gNomr.HKnorm.deltaCt.png",sep=""), units="in", width=11, height=11, res=200)
 print(qNormbpl)
 dev.off()
+
+# this a new commit line from Github Desktop
